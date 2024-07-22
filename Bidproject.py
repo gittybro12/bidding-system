@@ -5,7 +5,7 @@ higher = 0
 def greater_bid():
     global higher
     for x in bid:
-        bid_value = bid[x]
+        bid_value = bid[name]
         if bid_value > higher:
             higher = bid_value
     print(f"The winner of the bid is {x} with a bid of ${higher}")        
